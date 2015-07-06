@@ -1,0 +1,13 @@
+.login_form_btn {
+	width:100px;
+	height:100px;
+	vertical-align:middle;
+}
+.main_logout {
+	height: 33px;
+  	width: 33px;
+  	background-image: url(../images/exit.png) !important;
+  	background:rgba(99, 55, 11, 0);   /*背景透明*/
+  	border:0px;
+}
+

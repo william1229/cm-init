@@ -1,0 +1,11 @@
+.login_bg {
+	background-image: url(../images/login_bg.png) !important;
+}
+.login_form_bg {
+	background-image: url(../images/login_box_bg.png) !important;
+	background:rgba(99, 55, 11, 0);   /*背景透明*/
+	border:0px;
+}
+.logo {
+	background-image: url(../images/logo.png) !important;
+}

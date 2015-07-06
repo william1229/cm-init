@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<!-- 将对象交给spring管理 -->
+	<constant name="struts.objectFactory" value="spring" />
+	<!-- 配置struts2应用于开发模式 -->
+	<constant name="struts.devMode" value="true" />
+	<!-- 配置Convention插件自动重加载映射 -->
+	<constant name="struts.convention.classes.reload" value="true" />
+	<!-- 指定资源编码类型 -->
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.convention.result.path" value="/WEB-INF" />
+	<constant name="struts.convention.result.flatLayout" value="false" />
+	<constant name="struts.custom.i18n.resources" value="messageResource" />
+
+	<package name="login" extends="json-default">
+		<action name="login_*" method="{1}" class="cn.cas.iue.action.LoginAction">
+			<result type="json" />
+			<result name="login">/html/login.jsp</result>
+		</action> 
+	</package>
+	<package name="node" extends="json-default">
+		<action name="node_*" method="{1}" class="cn.cas.iue.action.NodeAction">
+			<result type="json" />
+		</action> 
+	</package>
+	<package name="user" extends="json-default">
+		<action name="user_*" method="{1}" class="cn.cas.iue.action.UserAction">
+			<result type="json" />
+		</action> 
+	</package>
+	<package name="trainingRec" extends="json-default">
+		<action name="trainingRec_*" method="{1}" class="cn.cas.iue.action.TrainingRecAction">
+			<result type="json" />
+		</action> 
+	</package>
+	<package name="instru" extends="json-default">
+		<action name="instru_*" method="{1}" class="cn.cas.iue.action.InstruAction">
+			<result type="json" />
+		</action> 
+	</package>
+	<package name="consumable" extends="json-default">
+		<action name="consumable_*" method="{1}" class="cn.cas.iue.action.ConsumableAction">
+			<result type="json" />
+		</action> 
+	</package>
+	<package name="appraisal" extends="json-default">
+		<action name="appraisal_*" method="{1}" class="cn.cas.iue.action.AppraisalRecAction">
+			<result type="json" />
+		</action> 
+	</package>
+	<package name="standard" extends="json-default">
+		<action name="standard_*" method="{1}" class="cn.cas.iue.action.StandardAction">
+			<result type="json" />
+		</action> 
+	</package>
+	<package name="certificate" extends="json-default">
+		<action name="certificate_*" method="{1}" class="cn.cas.iue.action.CertificateAction">
+			<result type="json" />
+		</action> 
+	</package>
+	<package name="appraisalRec" extends="json-default">
+		<action name="appraisalRec_*" method="{1}" class="cn.cas.iue.action.AppraisalRecAction">
+			<result type="json" />
+		</action> 
+	</package>
+	<package name="sSample" extends="json-default">
+		<action name="sSample_*" method="{1}" class="cn.cas.iue.action.SSampleAction">
+			<result type="json" />
+		</action> 
+	</package>
+	<package name="project" extends="json-default">
+		<action name="project_*" method="{1}" class="cn.cas.iue.action.ProjectAction">
+			<result type="json" />
+		</action> 
+	</package>
+	<package name="review" extends="json-default">
+		<action name="review_*" method="{1}" class="cn.cas.iue.action.ReviewAction">
+			<result type="json" />
+		</action> 
+	</package>
+</struts>

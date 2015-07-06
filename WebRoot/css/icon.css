@@ -1,0 +1,191 @@
+.user {
+	height: 32px;
+  	width: 32px; 
+  	font-size:20px;
+    background-image: url(../images/user.png) !important;
+    background-repeat:no-repeat;
+    background-position:right; 
+    
+}
+.lock {
+	height: 32px;
+  	width: 32px; 
+  	font-size:20px;
+    background-image: url(../images/lock.png) !important;
+    background-repeat:no-repeat;
+    background-position:right;
+}
+.exclamation {
+	height: 16px;
+  	width: 16px;
+    background-image: url(../images/exclamation.png) !important;
+}
+.delete {
+	height: 16px;
+  	width: 16px; 
+    background-image: url(../images/delete.png) !important;
+    cursor:pointer; 
+}
+.add {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/add.png) !important;
+    cursor:pointer; 
+}
+.search {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/search.png) !important;
+    cursor:pointer; 
+}
+.select {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/check.png) !important;
+    cursor:pointer; 
+}
+.download {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/download.png) !important;
+    cursor:pointer; 
+}
+.edit {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/edit.png) !important;
+    cursor:pointer; 
+}
+.doorIn {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/door_in.png) !important;
+    cursor:pointer; 
+}
+.doorOut {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/door_out.png) !important;
+    cursor:pointer; 
+}
+.keyAdd {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/key_add.png) !important;
+    cursor:pointer; 
+}
+.keyDelete {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/key_delete.png) !important;
+    cursor:pointer; 
+}
+.cart {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/cart.png) !important;
+    cursor:pointer; 
+}
+.instru {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/computer.png) !important;
+    cursor:pointer; 
+}
+.public {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/database.png) !important;
+    cursor:pointer; 
+}
+.undo {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/arrow_undo.png) !important;
+    cursor:pointer; 
+}
+.redo {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/arrow_redo.png) !important;
+    cursor:pointer; 
+}
+.cancel {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/cancel.png) !important;
+    cursor:pointer; 
+}
+.exit {
+	height: 33px;
+  	width: 33px;
+  	background-image: url(../images/exit.png) !important;
+    background-repeat:no-repeat;
+    cursor:pointer; 
+}
+.start {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/start.png) !important;
+    cursor:pointer; 
+}
+.stop {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/stop.png) !important;
+    cursor:pointer; 
+}
+.repair {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/repair.png) !important;
+    cursor:pointer; 
+}
+.metrical {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/metrical.png) !important;
+    cursor:pointer; 
+}
+.book {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/book.png) !important;
+    cursor:pointer; 
+}
+.report {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/report.png) !important;
+    cursor:pointer; 
+}
+.page {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/page.png) !important;
+    cursor:pointer; 
+}
+.upload {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/upload.png) !important;
+    cursor:pointer; 
+}
+.report_go {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/report_go.png) !important;
+    cursor:pointer; 
+}
+.report_delete {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/report_delete.png) !important;
+    cursor:pointer; 
+}
+.bottle {
+	height: 16px;
+  	width: 16px;
+  	background-image: url(../images/bottle.png) !important;
+    cursor:pointer; 
+}
